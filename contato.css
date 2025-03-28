@@ -33,10 +33,11 @@ width: 50%;
   color: #F08080;
   font-weight: bold;
   font-size: 18px; 
+  border: none;
   border-radius: 5px;
+  transition: 1s all;
   cursor: pointer;
 }
-
 
 .enviar:hover {
 background: #8B008B;
@@ -50,7 +51,7 @@ table{
 thead{
   background: #6A5ACD;
   color: #87CEEB;
-  font-wight: bold;
+  font-weight: bold;
 }
 
 td, th{
