@@ -4,29 +4,44 @@
 	width:100%;
 }
 
-
 .titulo-principal {
-	padding-left: 20px;
+	text-aling: center;
+	font-size: 2em;
+	margin: 0 0 1m;
+	clear: left;
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
 }
 
 #missao {
 	font-size: 20px
 }
 
-em strong {
-	color: #FF0000;
+.utensilios {
+	wight: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+	width: 50%;
 }
 
 .itens {
-	font-style: italic
+	font-style: italic;
 }
 
 .beneficios {
 	background: #FFFFFF;
 	padding: 20px;
-}
-
-
-.imagembeneficios {
-	width: 50%;
 }
