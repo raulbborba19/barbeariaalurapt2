@@ -1,4 +1,4 @@
-@import url(produtos.css)
+@import url(produtos.css);
 
 body{
 	font-family: 'Roboto', sans-serif;
@@ -13,6 +13,13 @@ body{
 	font-size: 2em;
 	margin: 0 0 1m;
 	clear: left;
+}
+
+.principal{
+	padding: 3em 0;
+	background: #ffffff;
+	width: 940px;
+	margin: 0 auto;
 }
 
 .principal p{
@@ -37,21 +44,48 @@ body{
 	margin: 0 20px 20px 0;
 }
 
-.imagembeneficios {
-	width: 50%;
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+.conteudo-beneficios{
+	width: 40%;
+	margin: 0 auto;
+}
+
+.lista-beneficios{
+	width: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imagem-beneficios {
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficiosn:hover{
+	opacity: 0.3;
 }
 
 .itens {
 	font-style: italic;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+.itens:first-child{
+	font-weight: bold;
+}
+
+.itens:before{
+	content: "⭐";
 }
 
 .mapa {
 	padding: 3em 0;
+	background: linear-gradient(#fefefe, #000000};
 }
 
 .mapa p{
