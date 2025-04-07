@@ -56,4 +56,5 @@ thead{
 
 td, th{
   border: 1px solid 
+  padding: 8px 15px;
 }
